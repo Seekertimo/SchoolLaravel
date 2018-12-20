@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto; /* h1 main (is variabel) footer*/
+    background-image: url("bananen-stoppend.jpg");
 }
 
 
@@ -32,6 +33,7 @@ nav {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    background-color: yellow;
 
 }
 

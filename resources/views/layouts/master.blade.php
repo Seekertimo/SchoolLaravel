@@ -19,7 +19,7 @@
     </header>
         @section('navigation')
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Banana</a>
+                <a class="navbar-brand" href="banaan.blade.php">Banana</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,8 +34,8 @@
                                 Contact
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">About</a>
-                                <a class="dropdown-item" href="#">FAQ</a>
+                                <a class="dropdown-item" href="about.blade.php">About</a>
+                                <a class="dropdown-item" href="faq.blade.php">FAQ</a>
 
                             </div>
                         </li>
@@ -49,7 +49,7 @@
           @show
     <main>
         @section('content')
-            Er is nog geen content
+            Banen voor 2
         @show
     </main>
     <footer>FOOTER</footer>
